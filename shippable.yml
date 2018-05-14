@@ -1,0 +1,15 @@
+language: none
+
+services:
+   - selenium
+
+
+build:
+  pre_ci_boot:
+    image_name: drydock/u14all
+    image_tag: master
+    pull: true
+    
+    
+  ci:
+    - java -jar /usr/local/selenium/selenium-server-standalone-3.8.1.jar --version
