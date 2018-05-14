@@ -12,4 +12,4 @@ build:
     
     
   ci:
-    - java -jar /usr/local/selenium/selenium-server-standalone-3.8.1.jar --version
+    - java -jar /usr/local/selenium/selenium-server-standalone-3.11.0.jar --version
